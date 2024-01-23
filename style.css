@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-my {
+    background-color: #F8F9FB;
+}
+/* sezione titolo */
+.titleSymbol {
+    background-color: #E41D56;
+    color: white;
+}
+/* sezione card */
+.fa-star {
+    color: #FF335A;
+}
+
+.card {
+    cursor: pointer;
+}
