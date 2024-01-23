@@ -8,109 +8,332 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- Sezione titolo -->
-    <section class="container mb-3">
-        <p class="m-0">10 stays</p>
-        <div class="d-flex align-items-center">
-            <h1>Stays in Genova</h1>
-            <p class="text-center titleSymbol p-0 py-1 px-2 mx-1 pb-2 rounded-circle">+</p>
-        </div>
-    </section>
-    <!-- Sezione filtro -->
-    <section class="container mt-5">
-        <a href="#" class="text-reset link-underline link-underline-opacity-0 me-1 border border-black rounded-pill p-2 px-3 bg-my">Avalaible Houses</a>
-        <a href="#" class="text-reset link-underline link-underline-opacity-0 me-1 border border-black rounded-pill p-2 px-3 bg-my">Booked Houses</a>
-        <a href="#" class="text-reset link-underline link-underline-opacity-0 me-1 border border-black rounded-pill p-2 px-3 bg-my">All Houses</a>
-    </section>
-    <!-- Sezione Info -->
-    <section class="container mt-5">
-        <p>Enter dates and number of guestes to see the total price for night</p>
-        <p>Review COVID-19 travel restrinctions before you look. <a href="#" class="text-reset link-underline link-underline-opacity-0">Learn more</a></p>
-    </section>
-    <!-- Sezione Appartamenti -->
+    <!-- card luoghi -->
     <section class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-4 col-12">
-                <div class="card">
-                    <img src="assets-luoghi/a3d05239_original.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between">
-                            <h5>Luogo</h5>
-                            <div>
-                                <i class="fa-solid fa-star"></i>
-                                <span>4.6</span>
+            <div class=" my-3 col-lg-2 col-md-3 col-sm-6 col-12">
+                <div id="carousel" class="carousel slide" >
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets-luoghi/a3d05239_original.webp" class="img-fluid">
+                                </div>
                             </div>
                         </div>
-                        <p>Leggera e breve descritione per aggiungere contenuto aiuto non so più che scrivere :)</p>
-                        <div class="d-flex align-items-center">
-                            <h6 class="m-0 ">2400€</h6>
-                            <p class="m-0 mx-2">notte</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-12">
-                <div class="card">
-                    <img src="assets-luoghi/a3d05239_original.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between">
-                            <h5>Luogo</h5>
-                            <div>
-                                <i class="fa-solid fa-star"></i>
-                                <span>4.6</span>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets-luoghi/1bdfb1ca-59f3-4b26-b13c-af1fea97fe13.webp" class="img-fluid">
+                                </div>
                             </div>
                         </div>
-                        <p>Leggera e breve descritione per aggiungere contenuto aiuto non so più che scrivere :)</p>
-                        <div class="d-flex align-items-center">
-                            <h6 class="m-0 ">2400€</h6>
-                            <p class="m-0 mx-2">notte</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-12">
-                <div class="card">
-                    <img src="assets-luoghi/a3d05239_original.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between">
-                            <h5>Luogo</h5>
-                            <div>
-                                <i class="fa-solid fa-star"></i>
-                                <span>4.6</span>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets-luoghi/916d0103-1e99-4c7d-9923-aa7f67f85103.webp" class="img-fluid">
+                                </div>
                             </div>
                         </div>
-                        <p>Leggera e breve descritione per aggiungere contenuto aiuto non so più che scrivere :)</p>
-                        <div class="d-flex align-items-center">
-                            <h6 class="m-0 ">2400€</h6>
-                            <p class="m-0 mx-2">notte</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-12">
-                <div class="card">
-                    <img src="assets-luoghi/a3d05239_original.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between">
-                            <h5>Luogo</h5>
-                            <div>
-                                <i class="fa-solid fa-star"></i>
-                                <span>4.6</span>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets-luoghi/ecfdd3d8-7374-4eda-8353-f5a4cf9451e4.webp" class="img-fluid">
+                             </div>
                             </div>
                         </div>
-                        <p>Leggera e breve descritione per aggiungere contenuto aiuto non so più che scrivere :)</p>
-                        <div class="d-flex align-items-center">
-                            <h6 class="m-0 ">2400€</h6>
-                            <p class="m-0 mx-2">notte</p>
-                        </div>
+                    </div>
+                    <a class="carousel-control-prev bg-transparent w-aut" href="#carousel" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next bg-transparent w-aut" href="#carousel" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <h5>Luogo</h5>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <span>4.6</span>
                     </div>
                 </div>
+                <p>Leggera e breve descritione per aggiungere contenuto aiuto non so più che scrivere :)</p>
+                <div class="d-flex align-items-center">
+                    <h6 class="m-0 ">2400€</h6>
+                    <p class="m-0 mx-2">notte</p>
+                </div>
             </div>
+
+            <div class=" my-3 col-lg-2 col-md-3 col-sm-6 col-12">
+                <div id="carousel2" class="carousel slide" >
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets-luoghi/a3d05239_original.webp" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets-luoghi/1bdfb1ca-59f3-4b26-b13c-af1fea97fe13.webp" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets-luoghi/916d0103-1e99-4c7d-9923-aa7f67f85103.webp" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets-luoghi/ecfdd3d8-7374-4eda-8353-f5a4cf9451e4.webp" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev bg-transparent w-aut" href="#carousel2" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next bg-transparent w-aut" href="#carousel2" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <h5>Luogo</h5>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <span>4.6</span>
+                    </div>
+                </div>
+                <p>Leggera e breve descritione per aggiungere contenuto aiuto non so più che scrivere :)</p>
+                <div class="d-flex align-items-center">
+                    <h6 class="m-0 ">2400€</h6>
+                    <p class="m-0 mx-2">notte</p>
+                </div>
+            </div>
+
+            <div class=" my-3 col-lg-2 col-md-3 col-sm-6 col-12">
+                <div id="carousel3" class="carousel slide" >
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets-luoghi/a3d05239_original.webp" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets-luoghi/1bdfb1ca-59f3-4b26-b13c-af1fea97fe13.webp" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets-luoghi/916d0103-1e99-4c7d-9923-aa7f67f85103.webp" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets-luoghi/ecfdd3d8-7374-4eda-8353-f5a4cf9451e4.webp" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev bg-transparent w-aut" href="#carousel3" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next bg-transparent w-aut" href="#carousel3" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <h5>Luogo</h5>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <span>4.6</span>
+                    </div>
+                </div>
+                <p>Leggera e breve descritione per aggiungere contenuto aiuto non so più che scrivere :)</p>
+                <div class="d-flex align-items-center">
+                    <h6 class="m-0 ">2400€</h6>
+                    <p class="m-0 mx-2">notte</p>
+                </div>
+            </div>
+
+            <div class=" my-3 col-lg-2 col-md-3 col-sm-6 col-12">
+                <div id="carousel4" class="carousel slide" >
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets-luoghi/a3d05239_original.webp" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets-luoghi/1bdfb1ca-59f3-4b26-b13c-af1fea97fe13.webp" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets-luoghi/916d0103-1e99-4c7d-9923-aa7f67f85103.webp" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets-luoghi/ecfdd3d8-7374-4eda-8353-f5a4cf9451e4.webp" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev bg-transparent w-aut" href="#carousel4" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next bg-transparent w-aut" href="#carousel4" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <h5>Luogo</h5>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <span>4.6</span>
+                    </div>
+                </div>
+                <p>Leggera e breve descritione per aggiungere contenuto aiuto non so più che scrivere :)</p>
+                <div class="d-flex align-items-center">
+                    <h6 class="m-0 ">2400€</h6>
+                    <p class="m-0 mx-2">notte</p>
+                </div>
+            </div>
+
+            <div class=" my-3 col-lg-2 col-md-3 col-sm-6 col-12">
+                <div id="carousel5" class="carousel slide" >
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets-luoghi/a3d05239_original.webp" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets-luoghi/1bdfb1ca-59f3-4b26-b13c-af1fea97fe13.webp" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets-luoghi/916d0103-1e99-4c7d-9923-aa7f67f85103.webp" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets-luoghi/ecfdd3d8-7374-4eda-8353-f5a4cf9451e4.webp" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev bg-transparent w-aut" href="#carousel5" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next bg-transparent w-aut" href="#carousel5" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <h5>Luogo</h5>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <span>4.6</span>
+                    </div>
+                </div>
+                <p>Leggera e breve descritione per aggiungere contenuto aiuto non so più che scrivere :)</p>
+                <div class="d-flex align-items-center">
+                    <h6 class="m-0 ">2400€</h6>
+                    <p class="m-0 mx-2">notte</p>
+                </div>
+            </div>
+
+            <div class=" my-3 col-lg-2 col-md-3 col-sm-6 col-12">
+                <div id="carousel6" class="carousel slide" >
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets-luoghi/a3d05239_original.webp" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets-luoghi/1bdfb1ca-59f3-4b26-b13c-af1fea97fe13.webp" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets-luoghi/916d0103-1e99-4c7d-9923-aa7f67f85103.webp" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets-luoghi/ecfdd3d8-7374-4eda-8353-f5a4cf9451e4.webp" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev bg-transparent w-aut" href="#carousel6" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next bg-transparent w-aut" href="#carousel6" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <h5>Luogo</h5>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <span>4.6</span>
+                    </div>
+                </div>
+                <p>Leggera e breve descritione per aggiungere contenuto aiuto non so più che scrivere :)</p>
+                <div class="d-flex align-items-center">
+                    <h6 class="m-0 ">2400€</h6>
+                    <p class="m-0 mx-2">notte</p>
+                </div>
+            </div>
+
         </div>
     </section>
-
+    
     <script src="https://kit.fontawesome.com/2fc754e3d6.js" crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-   <script src="script.js"></script> 
+    <script src="script.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

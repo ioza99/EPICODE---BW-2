@@ -1,18 +1,4 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.bg-my {
-    background-color: #F8F9FB;
-}
-/* sezione titolo */
-.titleSymbol {
-    background-color: #E41D56;
-    color: white;
-}
-/* sezione card */
+/* card */
 .fa-star {
     color: #FF335A;
 }
@@ -20,3 +6,32 @@
 .card {
     cursor: pointer;
 }
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(1%);
+    }
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-1%);
+    }
+    }
+    
