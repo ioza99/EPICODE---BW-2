@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* general resets */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* overrides */
+
+.container {
+    max-width: 1120px !important;
+}
+
+/* personalizations */
+
+main {
+    font-family: Roboto;
+}
+
+img.abb-icon-img {
+    height: 30px;
+}
+
+h1 {
+    margin: 0 !important;
+    font-size: 26pt !important;
+}
+
+a {
+    color: #222222;
+}
+
+ion-icon {
+    font-size: 18pt;
+}
+
+#abb-image1 {
+    background-image: url(./assets/1.webp);
+    background-size: cover;
+    background-position: center;
+    height: 408px;
+}
+
+.abb-brd-rnd-1 {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#abb-image2 {
+    background-image: url(./assets/2.webp);
+    background-size: cover;
+    background-position: center;
+        height: 200px;
+}
+
+#abb-image3 {
+    background-image: url(./assets/3.webp);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.abb-brd-rnd-3 {
+    border-top-right-radius: 20px;
+}
+
+
+#abb-image4 {
+    background-image: url(./assets/4.webp);
+    background-size: cover;
+    background-position: center;
+        height: 200px;
+}
+
+#abb-image5 {
+    background-image: url(./assets/5.webp);
+    background-size: cover;
+    background-position: center;
+        height: 200px;
+}
+
+.abb-brd-rnd-5 {
+    border-bottom-right-radius: 20px;
+}
+
+.abb-brd-rnd-card {
+    border-radius: 20px;
+}
+
+

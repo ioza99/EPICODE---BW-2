@@ -1,17 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML flat page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
     <main>
+        <section class="container py-2 d-flex justify-content-between">
+            <div class="d-flex align-items-center">
+                <img class="abb-icon-img pe-2" src="./assets/translate.svg" alt="translate">
+                <h1>Blarmor home</h1>
+            </div>
+            <div class="d-flex align-items-center">
+                <div class="d-flex pe-2">
+                    <ion-icon class="pe-2" name="share-outline"></ion-icon>
+                    <a href="#">Condividi</a>
+                </div>
+                <div class="d-flex pe-2">
+                    <ion-icon class="pe-2" name="heart-outline"></ion-icon>
+                    <a href="#">Salva</a>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <div class="row g-2">
+                <div class="col-12 col-md-6">
+                    <div id="abb-image1" class="abb-brd-rnd-1"></div>
+                </div>
+                <div class="col-12 col-md-6 d-none d-md-inline-block">
+                    <div class="row g-2">
+                        <div class="col-6">
+                            <div id="abb-image2"></div>
+                        </div>
+                        <div class="col-6">
+                            <div id="abb-image3" class="abb-brd-rnd-3"></div>
+                        </div>
+                        <div class="col-6">
+                            <div id="abb-image4"></div>
+                        </div>
+                        <div class="col-6">
+                            <div id="abb-image5" class="abb-brd-rnd-5"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-4">
+            <div class="row">
+                <div class="col-12 col-md-8">
+                    <div>
+                        <h3 class="m-0 fs-5">House. Lochness, Scottish Highlands</h3>
+                        <p class="m-0">6 ospiti • 2 camere da letto • 6 letti • 1 bagno</p>
+                        <div class="d-flex align-items-center">
+                            <ion-icon class="me-2 fs-5" name="star"></ion-icon>
+                            <p class="m-0">Ancora nessuna recensione</p>
+                        </div>
+                       
+                    </div></span>
+                
+                </div>
+                <div class="col-md-4">
+                    <div class="card abb-brd-rnd-card" style="width: 22rem;">
+                        <div class="card-body shadow abb-brd-rnd-card">
+                          <h5 class="card-title">Card title</h5>
+                          <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="card-link">Card link</a>
+                          <a href="#" class="card-link">Another link</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
 
     </main>
 
@@ -21,6 +87,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="https://kit.fontawesome.com/90071272c0.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
