@@ -34,32 +34,62 @@
                     <div id="recipeCarousel" class="carousel slide">
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
-                                <div class="col-md-3">
+                                <div class="col-lg-1">
                                     <i class="bi bi-house"></i>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="col-md-3">
+                                <div class="col-lg-1">
                                     <i class="bi bi-house"></i>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="col-md-3">
+                                <div class="col-lg-1">
                                     <i class="bi bi-house"></i>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="col-md-3">
+                                <div class="col-lg-1">
                                     <i class="bi bi-house"></i>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="col-md-3">
+                                <div class="col-lg-1">
                                     <i class="bi bi-house"></i>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="col-md-3">
+                                <div class="col-lg-1">
+                                    <i class="bi bi-house"></i>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-lg-1">
+                                    <i class="bi bi-house"></i>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-lg-1">
+                                    <i class="bi bi-house"></i>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-lg-1">
+                                    <i class="bi bi-house"></i>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-lg-1">
+                                    <i class="bi bi-house"></i>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-lg-1">
+                                    <i class="bi bi-house"></i>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-lg-1">
                                     <i class="bi bi-house"></i>
                                 </div>
                             </div>
@@ -70,6 +100,7 @@
                         <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         </a>
+
                     </div>
                 </div>
             </div>
@@ -92,12 +123,12 @@
         let items = document.querySelectorAll('.carousel .carousel-item')
 
         items.forEach((el) => {
-            const minPerSlide = 6;
+            const minPerSlide = 12;
             let next = el.nextElementSibling
             for (var i = 0; i < minPerSlide; i++) {
                 if (!next) {
                     // wrap carousel by using first child
-                    next = items[0]
+                    next = items[0];
                 }
                 let cloneChild = next.cloneNode(true)
                 el.appendChild(cloneChild.children[0])

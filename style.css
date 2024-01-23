@@ -8,6 +8,14 @@ main {
     overflow-x: hidden;
 }
 
+.carousel-control-prev {
+    justify-content: start;
+}
+
+.carousel-control-next {
+    justify-content: end;
+}
+
 .carousel-control-next-icon, .carousel-control-prev-icon {
     background-color: black;
 }
@@ -32,12 +40,12 @@ main {
     
     .carousel-inner .carousel-item-end.active,
     .carousel-inner .carousel-item-next {
-      transform: translateX(16.66%);
+      transform: translateX(8.3%);
     }
     
     .carousel-inner .carousel-item-start.active, 
     .carousel-inner .carousel-item-prev {
-      transform: translateX(-16.66%);
+      transform: translateX(-8.3%);
     }
 }
 
