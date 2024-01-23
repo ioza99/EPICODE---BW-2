@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section#top {
+    background-image: url(assets/home.jpg);
+    background-repeat: no-repeat
+}
