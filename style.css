@@ -176,26 +176,49 @@ div.icon-container:hover > img {
     cursor: pointer;
 }
 
-.carousel-control-prev {
+#icon-carousel-control-prev,
+#icon-carousel-control-next {
     width: 2%;
-    justify-content: start;
+    display: flex;
+    align-items: center;
 }
 
-.carousel-control-next {
-    width: 2%;
-    justify-content: end;
+#icon-carousel-control-next {
+    justify-content: flex-end;
 }
 
-#icon-carousel-control-next-icon, #icon-carousel-control-prev-icon {
+#icon-carousel-control-next-icon,
+#icon-carousel-control-prev-icon {
     border-radius: 50%;
     border: 1px solid gray;
-    background-color: rgb(70, 70, 70);
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
-    height: 20px;
-    width: 20px;
+.carousel-control-next-icon.icon,
+.carousel-control-prev-icon.icon {
+    height: 25px;
+    width: 25px;
+    background-size: 50%;
 }
+
+.carousel-control-next-icon.icon {
+    background-image: url('https://www.svgrepo.com/show/27797/right-arrow.svg');
+}
+
+.carousel-control-prev-icon.icon {
+    background-image: url('https://www.svgrepo.com/show/91007/left-arrow-chevron.svg');
+}
+
+.carousel-control-prev-icon.icon,
+.carousel-control-next-icon.icon {
+    color: black;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    box-shadow: 1px 20px 20px 3px rgba(0, 0, 0, 0.05), 10px 10px 20px 0 rgba(0, 0, 0, 0.01);
+}
+
+
 
 @media (max-width: 767px) {
     .carousel-inner .carousel-item > div {
