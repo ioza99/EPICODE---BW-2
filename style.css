@@ -52,10 +52,12 @@ div.navbar-item {
 }
 
 div.navbar-active {
+    padding: 10px;
     font-weight: bold;
 }
 
 div.navbar-nonactive {
+    padding: 10px;
     border-radius: 30px;
 }
 
