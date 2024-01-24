@@ -77,7 +77,7 @@ ion-icon {
     border-bottom: 1px solid #dddddd;
 }
 
-/* rounding classes */
+/* rounding classes & personalization */
 
 .abb-rnd-top-left {
     border-top-left-radius: 20px;
@@ -111,14 +111,22 @@ ion-icon {
     border-bottom-right-radius: 0;
 }
 
-/* carosello */
+.abb-book-bottom {
+    background-color: white;
+}
+
+/* carosello + personalizzazioni */
 
 @media (max-width: 767px) {
     .carousel-inner .carousel-item > div {
         display: none;
     }
-    .carousel-inner .carousel-item > div:first-child {
+    .carousel-inner .carousel-item > div:first-child, .carousel-inner .carousel-item > div:nth-child(2) {
         display: block;
+    }
+
+    #abb-image1 {
+        border-radius: 0;
     }
 }
 
