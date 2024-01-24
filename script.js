@@ -21,10 +21,26 @@
 //     slideHome(id);
 // }
 
-let items = document.querySelectorAll('#iconCarousel .carousel-item')
+let icons = document.querySelectorAll('#iconCarousel .icon-carousel')
+
+icons.forEach((el) => {
+    const minPerSlide = 12;
+    let next = el.nextElementSibling
+    for (var i = 0; i < minPerSlide; i++) {
+        if (!next) {
+            // wrap carousel by using first child
+            next = icons[0];
+        }
+        let cloneChild = next.cloneNode(true)
+        el.appendChild(cloneChild.children[0])
+        next = next.nextElementSibling
+    }
+})
+
+let items = document.querySelectorAll('#carousel .icon-carousel')
 
 items.forEach((el) => {
-    const minPerSlide = 12;
+    const minPerSlide = 1;
     let next = el.nextElementSibling
     for (var i = 0; i < minPerSlide; i++) {
         if (!next) {

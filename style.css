@@ -44,7 +44,6 @@ main {
     display: flex;
 }
 
-/* medium and up screens */
 @media (min-width: 768px) {
     
     .carousel-inner .carousel-item-end.active,
@@ -64,7 +63,7 @@ main {
 }
 
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     
     .carousel-inner .carousel-item-end.active,
     .carousel-inner .carousel-item-next {
@@ -76,4 +75,4 @@ main {
       transform: translateX(-1%);
     }
 }
-    
+     */
