@@ -7,6 +7,26 @@
     cursor: pointer;
 }
 
+/* first page */
+section#top {
+    background-image: url(assets/home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+p.fs-5 {
+    font-size: 10pt!important;
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+
+img {
+    cursor: pointer;
+}
+
 @media (max-width: 767px) {
     .carousel-inner .carousel-item > div {
         display: none;
