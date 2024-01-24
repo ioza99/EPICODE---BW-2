@@ -36,7 +36,7 @@
         <div class="container">
             <div class="row g-2">
                 <div class="col-12 col-md-6">
-                    <div id="abb-image1" class="abb-brd-rnd-1"></div>
+                    <div id="abb-image1" class="abb-rnd-top-left abb-rnd-bot-left"></div>
                 </div>
                 <div class="col-12 col-md-6 d-none d-md-inline-block">
                     <div class="row g-2">
@@ -44,13 +44,13 @@
                             <div id="abb-image2"></div>
                         </div>
                         <div class="col-6">
-                            <div id="abb-image3" class="abb-brd-rnd-3"></div>
+                            <div id="abb-image3" class="abb-rnd-top-right"></div>
                         </div>
                         <div class="col-6">
                             <div id="abb-image4"></div>
                         </div>
                         <div class="col-6">
-                            <div id="abb-image5" class="abb-brd-rnd-5"></div>
+                            <div id="abb-image5" class="abb-rnd-bot-right"></div>
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,8 @@
                             <ion-icon class="me-3 fs-4" name="calendar-outline"></ion-icon>
                             <div>
                                 <h4 class="m-0 fs-6">Cancellation time & fees</h4>
-                                <p class="m-0">Add your travel dates to know details about cancellation fees and terms.</p>
+                                <p class="m-0">Add your travel dates to know details about cancellation fees and terms.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -112,15 +113,6 @@
                         </div>
                     </div>
 
-                    <div class="abb-section py-4">
-                        <div class="d-flex align-items-center">
-                            <ion-icon class="me-3 fs-4" name="book-outline"></ion-icon>
-                            <div>
-                                <h4 class="m-0 fs-6">Rules of the House</h4>
-                                <p class="m-0">It's forbidden to host parties, bring animals and smoke.</p>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="abb-section py-4">
                         <div class="align-items-center">
@@ -128,97 +120,90 @@
                                 <h3 class="fs-4">Dove Dormirai</h3>
                             </div>
                             <div>
-                            <!-- carosello booking -->
-                            <div class="container-fluid text-center my-3">
-                                <div class="row mx-auto my-auto justify-content-center">
-                                    <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-                                        <div class="carousel-inner" role="listbox">
-                                            <div class="carousel-item active">
-                                                <div class="col-md-4">
-                                                    <div class="card">
-                                                        <div class="card-body">
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <!-- carosello booking -->
+                                <div class="container-fluid my-3">
+                                    <div class="row mx-auto my-auto justify-content-center">
+                                        <div id="roomsCarousel" class="carousel slide" data-bs-ride="carousel"
+                                            data-bs-interval="false">
+                                            <div class="carousel-inner" role="listbox">
+                                                <div class="carousel-item active">
+                                                    <div class="col-md-4">
+                                                        <div class="card mx-1">
+                                                            <div class="card-body">
+                                                                <ion-icon name="bed-outline"></ion-icon>
+                                                                <h5 class="card-title">Single Room</h5>
+                                                                <p class="card-text">1 Wide Bed</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="col-md-4">
+                                                        <div class="card mx-1">
+                                                            <div class="card-body">
+                                                                <ion-icon name="bed-outline"></ion-icon>
+                                                                <h5 class="card-title">Single Room</h5>
+                                                                <p class="card-text">1 Wide Bed</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="col-md-4">
+                                                        <div class="card mx-1">
+                                                            <div class="card-body">
+                                                                <ion-icon name="bed-outline"></ion-icon>
+                                                                <h5 class="card-title">Single Room</h5>
+                                                                <p class="card-text">1 Wide Bed</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="col-md-4">
+                                                        <div class="card mx-1">
+                                                            <div class="card-body">
+                                                                <ion-icon name="bed-outline"></ion-icon>
+                                                                <h5 class="card-title">Single Room</h5>
+                                                                <p class="card-text">1 Wide Bed</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="col-md-4">
+                                                        <div class="card mx-1">
+                                                            <div class="card-body">
+                                                                <ion-icon name="bed-outline"></ion-icon>
+                                                                <h5 class="card-title">Single Room</h5>
+                                                                <p class="card-text">1 Wide Bed</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="col-md-4">
+                                                        <div class="card mx-1">
+                                                            <div class="card-body">
+                                                                <ion-icon name="bed-outline"></ion-icon>
+                                                                <h5 class="card-title">Single Room</h5>
+                                                                <p class="card-text">1 Wide Bed</p>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="carousel-item">
-                                                <div class="col-md-4">
-                                                    <div class="card">
-
-                                                        <div class="card-body">
-                                                            <h5 class="card-title">Card title</h5>
-                                                            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                            </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="carousel-item">
-                                                <div class="col-md-4">
-                                                    <div class="card">
-
-                                                        <div class="card-body">
-                                                            <h5 class="card-title">Card title</h5>
-                                                            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                            </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="carousel-item">
-                                                <div class="col-md-4">
-                                                    <div class="card">
-
-                                                        <div class="card-body">
-                                                            <h5 class="card-title">Card title</h5>
-                                                            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                            </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="carousel-item">
-                                                <div class="col-md-4">
-                                                    <div class="card">
-
-                                                        <div class="card-body">
-                                                            <h5 class="card-title">Card title</h5>
-                                                            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                            </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="carousel-item">
-                                                <div class="col-md-4">
-                                                    <div class="card">
-
-                                                        <div class="card-body">
-                                                            <h5 class="card-title">Card title</h5>
-                                                            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                            </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            <a class="carousel-control-prev bg-transparent w-aut" href="#roomsCarousel"
+                                                role="button" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            </a>
+                                            <a class="carousel-control-next bg-transparent w-aut" href="#roomsCarousel"
+                                                role="button" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            </a>
                                         </div>
-                                        <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
-                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        </a>
-                                        <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        </a>
                                     </div>
-                                </div>		
-                            </div>
+                                </div>
                             </div>
 
                         </div>
@@ -229,14 +214,26 @@
                 <div class="col-md-5">
 
                     <!-- booking card -->
-                    <div class="card abb-brd-rnd-card ms-auto" style="width: 22rem;">
-                        <div class="card-body shadow abb-brd-rnd-card">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
+                    <div class="card abb-rnd-top-left abb-rnd-bot-left abb-rnd-top-right abb-rnd-bot-right ms-auto" style="width: 22rem;">
+                        <div class="card-body shadow abb-rnd-top-left abb-rnd-bot-left abb-rnd-top-right abb-rnd-bot-right">
+                            <p class="card-text">Choose dates to see the prices</p>
+                            <div class="input-group mb-0">
+                                <input type="date" class="form-control abb-rnd-top-left abb-agl-bot-left" aria-label="Sizing example input"
+                                    aria-describedby="inputGroup-sizing-default" placeholder="check-in">
+                                <input type="date" class="form-control abb-rnd-top-right abb-agl-bot-right" aria-label="Sizing example input"
+                                    aria-describedby="inputGroup-sizing-default" placeholder="check-out">
+                            </div>
+                            <select class="form-control abb-rnd-bot-right abb-rnd-bot-left abb-agl-top-left abb-agl-top-right" id="booking-solution-1" name="carlist" form="carform">
+                                <option value="volvo">1 person</option>
+                                <option value="saab">2 persons</option>
+                                <option value="opel">3 persons</option>
+                                <option value="audi">4 persons</option>
+                            </select>
+                            <div class="my-2 d-flex justify-content-center">
+                                <button type="button" class="btn btn-danger rounded-pill px-5">Book it Now!</button>
+                            </div>
+
+
                         </div>
                     </div>
                 </div>

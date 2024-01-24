@@ -44,11 +44,6 @@ ion-icon {
     height: 408px;
 }
 
-.abb-brd-rnd-1 {
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-
 #abb-image2 {
     background-image: url(./assets/2.webp);
     background-size: cover;
@@ -61,10 +56,6 @@ ion-icon {
     background-size: cover;
     background-position: center;
     height: 200px;
-}
-
-.abb-brd-rnd-3 {
-    border-top-right-radius: 20px;
 }
 
 
@@ -82,15 +73,76 @@ ion-icon {
         height: 200px;
 }
 
-.abb-brd-rnd-5 {
-    border-bottom-right-radius: 20px;
-}
-
-.abb-brd-rnd-card {
-    border-radius: 20px;
-}
-
 .abb-section {
     border-bottom: 1px solid #dddddd;
 }
 
+/* rounding classes */
+
+.abb-rnd-top-left {
+    border-top-left-radius: 20px;
+}
+
+.abb-rnd-bot-left {
+    border-bottom-left-radius: 20px;
+}
+
+.abb-rnd-top-right {
+    border-top-right-radius: 20px;
+}
+
+.abb-rnd-bot-right {
+    border-bottom-right-radius: 20px;
+}
+
+.abb-agl-top-left {
+    border-top-left-radius: 0;
+}
+
+.abb-agl-top-right {
+    border-top-right-radius: 0;
+}
+
+.abb-agl-bot-left {
+    border-bottom-left-radius: 0;
+}
+
+.abb-agl-bot-right {
+    border-bottom-right-radius: 0;
+}
+
+/* carosello */
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+    transform: translateX(0);
+}
