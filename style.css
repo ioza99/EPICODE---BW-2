@@ -53,10 +53,12 @@ div.navbar-item {
 
 div.navbar-active {
     font-weight: bold;
+    padding: 10px;
 }
 
 div.navbar-nonactive {
     border-radius: 30px;
+    padding: 10px;
 }
 
 div.navbar-nonactive:hover {
