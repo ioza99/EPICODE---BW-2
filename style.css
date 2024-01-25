@@ -25,6 +25,14 @@ div.search-icon-container i.bi-search {
     cursor: pointer;
 }
 
+.hidden {
+    opacity: 0;
+}
+
+.show {
+    opacity: 1;
+}
+
 /* Banner */
 div.banner {
     display: flex;
@@ -43,7 +51,7 @@ div.banner > p {
 
 /* Navbar */
 div.navbar-middle {
-    margin-left: 140px;
+    margin-left: 250px;
 }
 
 div.navbar-item {
@@ -104,6 +112,10 @@ div.search-container {
 
 div.search-container:hover {
     background-color: #e6e6e6;
+}
+
+div.dove {
+    padding-right: 120px;
 }
 
 div.dove, div.checkin, div.checkout, div.chi {
@@ -209,8 +221,12 @@ img {
     align-items: center;
 }
 
+#icon-carousel-control-prev {
+    margin-left: -25px;
+}
+
 #icon-carousel-control-next {
-    justify-content: flex-end;
+    margin-right: -25px;
 }
 
 #icon-carousel-control-next-icon,
@@ -273,5 +289,11 @@ img {
     .carousel-inner .carousel-item-end,
     .carousel-inner .carousel-item-start {
         transform: translateX(0);
+    }
+}
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1600px;
     }
 }
