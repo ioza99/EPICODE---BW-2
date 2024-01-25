@@ -23,3 +23,7 @@ img {
 section.search-section {
     border: none;
 }
+
+div.navbar-nonactive:hover {
+    background-color: #adb5bd;
+}
