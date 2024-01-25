@@ -20,6 +20,15 @@ main {
     font-family: Roboto;
 }
 
+nav {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #dddddd;
+}
+
+div.abb-logo-position a.navbar-brand img {
+    height: 50px;
+}
+
 img.abb-icon-img {
     height: 30px;
 }
@@ -35,6 +44,10 @@ a {
 
 ion-icon {
     font-size: 18pt;
+}
+
+ion-icon.pink-bg {
+    color: white;
 }
 
 #abb-image1 {
@@ -77,6 +90,15 @@ ion-icon {
     border-bottom: 1px solid #dddddd;
 }
 
+div.abb-avatar {
+    background-image: url(./assets/propic.png);
+    background-position: center;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+
 /* rounding classes & personalization */
 
 .abb-rnd-top-left {
@@ -113,6 +135,10 @@ ion-icon {
 
 .abb-book-bottom {
     background-color: white;
+}
+
+.pink-bg {
+    background-color: #eb4c60;
 }
 
 /* carosello + personalizzazioni */

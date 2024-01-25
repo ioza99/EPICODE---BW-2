@@ -7,12 +7,38 @@
     <title>HTML flat page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
     <main>
+
+        <nav class="navbar navbar-light">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="abb-logo-position">
+                    <a class="navbar-brand d-none d-md-inline-block" href="#"><img src="./assets/logo-pink.png" alt="airb&b logo"></a>
+                    <a class="navbar-brand d-md-inline-block d-md-none" href="#"><img src="./assets/logo-pink-short.png" alt="airb&b logo"></a>
+                </div>
+                <div>
+                    <div class="rounded-pill border d-flex align-items-center shadow-sm">
+                        <p class="ms-3 my-2 pe-2 border-end">Ovunque</p>
+                        <p class="ms-3 my-2 pe-2 border-end">Qualunque settimana</p>
+                        <p class="ms-3 my-2 pe-2 fw-light">Aggiungi ospiti</p>
+                        <ion-icon class="my-1 me-2 p-2 pink-bg rounded-circle fs-6" name="search-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <p class="me-3 my-auto">Passa a modalità Host</p>
+                    <ion-icon name="globe-outline"></ion-icon>
+                    <div class="border rounded-pill ms-3 d-flex">
+                        <ion-icon class="p-1 my-auto ms-1" name="menu-outline"></ion-icon>
+                        <div class="abb-avatar m-2"></div>
+                    </div>
+                </div>
+            </div>
+          </nav>
 
         <!-- titolo -->
         <section class="container py-2 d-flex justify-content-between">
