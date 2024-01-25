@@ -18,3 +18,7 @@ h1 {
 img {
     cursor: pointer;
 }
+
+section.search-section {
+    border: none;
+}
