@@ -32,45 +32,48 @@ items.forEach((el) => {
     }
 })
 
-// ---------------------------------------------------------------- CAROUSEL ----------------------------------------------------------------
-// GLOBAL SCOPES ----------------------------------------------------------------
-const mainContainer = document.getElementById('mainContainer');
+// // ---------------------------------------------------------------- CAROUSEL ----------------------------------------------------------------
+// // GLOBAL SCOPES ----------------------------------------------------------------
+// const mainContainer = document.getElementById('mainContainer');
 
-const cardsCount = data.length;
+// const cardsCount = data.length;
 
-const cardsImagesCount = data[0].images.length;
+// const cardsImagesCount = data[0].images.length;
 
-console.log(cardsCount, cardsImagesCount);
+// const cardsInARow = 6;
 
-console.log(data[0].images[0])
+// const creationCarousel = () => {
+//     for (let i = 0; i < data.length; i++) {
+//         // Crea una nuova riga ogni volta che viene raggiunto il conteggio massimo di cards per riga
+//         if (i % cardsInARow === 0) {
+//             const rowDiv = document.createElement('div');
+//             rowDiv.classList.add('row');
+//             mainContainer.appendChild(rowDiv);
+//         }
 
-const creationCarousel = () => {
-    // Creazione di un elemento div padre con la classe 'row'
-    const rowDiv = document.createElement('div');
-        rowDiv.classList.add('row');
+//     // Creazione di un elemento div figlio con le classi specificate
+//     const colDiv = document.createElement('div');
+//         colDiv.classList.add('my-3', 'col-lg-2', 'col-md-3', 'col-sm-6', 'col-12');
 
-    // Creazione di un elemento div figlio con le classi specificate
-    const colDiv = document.createElement('div');
-        colDiv.classList.add('my-3', 'col-lg-2', 'col-md-3', 'col-sm-6', 'col-12');
+//     // Creazione di un elemento div figlio con l'id 'carousel' e le classi specificate
+//     const carouselDiv = document.createElement('div');
+//         carouselDiv.setAttribute('id', 'carousel');
+//         carouselDiv.classList.add('carousel', 'slide');
 
-    // Creazione di un elemento div figlio con l'id 'carousel' e le classi specificate
-    const carouselDiv = document.createElement('div');
-        carouselDiv.setAttribute('id', 'carousel');
-        carouselDiv.classList.add('carousel', 'slide');
+//         // Aggiunta dei div figli al div padre
+//         rowDiv.appendChild(colDiv);
+//         colDiv.appendChild(carouselDiv);
 
-        // Aggiunta dei div figli al div padre
-        rowDiv.appendChild(colDiv);
-        colDiv.appendChild(carouselDiv);
+//         // Aggiunta del div padre (con i div figli annidati) a mainContainer
+//         mainContainer.appendChild(rowDiv);
 
-        // Aggiunta del div padre (con i div figli annidati) a mainContainer
-        mainContainer.appendChild(rowDiv);
+//     // Creazione dell'indicatore del carousel
+//     const carouselIndicator = document.createElement('div');
+//         carouselIndicator.classList.add('carousel-indicators');
+//     }
+// }
 
-    // Creazione dell'indicatore del carousel
-    const carouselIndicator = document.createElement('div');
-        carouselIndicator.classList.add('carousel-indicators');
-}
-
-creationCarousel();
+// creationCarousel();
 
 // // Utilizzo di forEach per iterare su ogni elemento dell'array data
 // data.forEach((item) => {
