@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* general resets */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* overrides */
+
+.container {
+    max-width: 1120px !important;
+}
+
+/* personalizations */
+
+main {
+    font-family: Roboto;
+}
+
+nav {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #dddddd;
+}
+
+div.abb-logo-position a.navbar-brand img {
+    height: 50px;
+}
+
+img.abb-icon-img {
+    height: 30px;
+}
+
+h1 {
+    margin: 0 !important;
+    font-size: 26pt !important;
+}
+
+a {
+    color: #222222;
+}
+
+ion-icon {
+    font-size: 18pt;
+}
+
+ion-icon.pink-bg {
+    color: white;
+}
+
+#abb-image1 {
+    background-image: url(./assets/1.webp);
+    background-size: cover;
+    background-position: center;
+    height: 408px;
+}
+
+#abb-image2 {
+    background-image: url(./assets/2.webp);
+    background-size: cover;
+    background-position: center;
+        height: 200px;
+}
+
+#abb-image3 {
+    background-image: url(./assets/3.webp);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+
+#abb-image4 {
+    background-image: url(./assets/4.webp);
+    background-size: cover;
+    background-position: center;
+        height: 200px;
+}
+
+#abb-image5 {
+    background-image: url(./assets/5.webp);
+    background-size: cover;
+    background-position: center;
+        height: 200px;
+}
+
+.abb-section {
+    border-bottom: 1px solid #dddddd;
+}
+
+div.abb-avatar {
+    background-image: url(./assets/propic.png);
+    background-position: center;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+}
+
+/* rounding classes & personalization */
+
+.abb-rnd-top-left {
+    border-top-left-radius: 20px;
+}
+
+.abb-rnd-bot-left {
+    border-bottom-left-radius: 20px;
+}
+
+.abb-rnd-top-right {
+    border-top-right-radius: 20px;
+}
+
+.abb-rnd-bot-right {
+    border-bottom-right-radius: 20px;
+}
+
+.abb-agl-top-left {
+    border-top-left-radius: 0;
+}
+
+.abb-agl-top-right {
+    border-top-right-radius: 0;
+}
+
+.abb-agl-bot-left {
+    border-bottom-left-radius: 0;
+}
+
+.abb-agl-bot-right {
+    border-bottom-right-radius: 0;
+}
+
+.abb-book-bottom {
+    background-color: white;
+}
+
+.pink-bg {
+    background-color: #eb4c60;
+}
+
+/* carosello + personalizzazioni */
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child, .carousel-inner .carousel-item > div:nth-child(2) {
+        display: block;
+    }
+
+    #abb-image1 {
+        border-radius: 0;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+    transform: translateX(0);
+}
