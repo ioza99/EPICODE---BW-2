@@ -66,6 +66,7 @@ const creationCarousel = () => {
 
     // Creazione di un elemento div per ogni immagine
     for (let i = 0; i < data.length; i++) {
+        for (let k = 0; k < data[i].images.length; k++) {
         const carouselItem = document.createElement('div');
         carouselItem.classList.add('carousel-item', i === 0 ? 'active' : ''); // Aggiungi la classe 'active' solo al primo elemento
         carouselInner.appendChild(carouselItem);
@@ -74,20 +75,28 @@ const creationCarousel = () => {
         carouselCard.classList.add('card');
         carouselItem.appendChild(carouselCard);
 
+        const carouselCardImg = document.createElement('div');
+        carouselCardImg.classList.add('card-img');
+        carouselCard.appendChild(carouselCardImg);
+
         // Assumi che 'data' sia un array di oggetti con la proprietà 'images' contenente un array di URL delle immagini.
         const images = data[i].images;
-        
+
         // Aggiungi le immagini al carouselCard
         for (let j = 0; j < images.length; j++) {
             const img = document.createElement('img');
             img.src = images[j];
+            img.alt = ''; // Puoi impostare un testo alternativo appropriato
+            img.loading = 'lazy';
             img.classList.add('img-fluid', 'rounded', 'object-fit-cover');
-            carouselCard.appendChild(img);
+            carouselCardImg.appendChild(img);
         }
     }
 }
-
+}
 creationCarousel();
+
+console.log(data[0].images.length);
 
 // // Utilizzo di forEach per iterare su ogni elemento dell'array data
 // data.forEach((item) => {
