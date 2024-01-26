@@ -94,6 +94,12 @@ div.banner > p {
     cursor: pointer;
 }
 
+div.navbar-left {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
 /* Navbar */
 div.navbar-middle {
     margin-left: 250px;
@@ -141,6 +147,9 @@ ul.dropdown-menu {
 /* Search Section */
 section.search-section {
     border-bottom: 1px solid rgb(228, 228, 228);
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 /* Search Container */
@@ -204,6 +213,12 @@ p.search-desc {
     margin-bottom: 0;
 }
 
+section.icon-carousel-list {
+    position: sticky;
+    top: 90px;
+    z-index: 1;
+}
+
 /* Icon Container */
 p.icon-title {
     font-size: 12px;
@@ -227,6 +242,22 @@ div.icon-container:hover {
 
 div.icon-container:hover > img {
     opacity: 1;
+}
+
+div.mostra-altro-container > p {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+div.mostra-altro-container:hover > p {
+    background-color: #000000;
+}
+
+footer {
+    height: 40vh;
+    background-color: #F8F8F8;
 }
 
 /* Card */
