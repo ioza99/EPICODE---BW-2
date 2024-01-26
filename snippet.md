@@ -1,13 +1,13 @@
 <div class="row">
             <div class="my-3 col-lg-2 col-md-3 col-sm-6 col-12">
                 <div id="carousel" class="carousel slide">
-                    <!-- <div class="carousel-indicators">
+                    <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                         <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
                         <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                    </div> -->
+                    </div>
                     <div class="carousel-inner" role="listbox" id="img-carousel">
                         <div class="carousel-item active">
                             <div class="card">

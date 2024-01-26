@@ -31,7 +31,7 @@ items.forEach((el) => {
         next = next.nextElementSibling
     }
 })
-
+/*
 // ---------------------------------------------------------------- CAROUSEL ----------------------------------------------------------------
 // GLOBAL SCOPES ----------------------------------------------------------------
 const mainContainer = document.getElementById('mainContainer');
@@ -112,3 +112,4 @@ console.log(data[0].images.length);
 //     console.log('Dates:', item.dates);
 //     console.log('Price:', item.price);
 // });
+*/
