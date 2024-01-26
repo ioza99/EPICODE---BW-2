@@ -1,0 +1,29 @@
+
+/* first page */
+section#top {
+    background-image: url(assets/home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+p.fs-5 {
+    font-size: 10pt!important;
+}
+
+h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+img {
+    cursor: pointer;
+}
+
+section.search-section {
+    border: none;
+}
+
+div.navbar-nonactive:hover {
+    background-color: #adb5bd;
+}
